@@ -15,6 +15,7 @@ const products = [
   { name: 'Lightning Arrestors', href: '/products/lightning-arrestors' },
   { name: 'Wiring Devices', href: '/products/wiring-devices' },
   { name: 'Inspection Chambers', href: '/products/inspection-chambers' },
+  { name: 'Solar Materials', href: '/products/solar-materials' },
 ];
 
 const industries = [
@@ -90,6 +91,7 @@ export default function Header() {
           </div>
 
           <Link href="/case-studies" className="text-foreground font-bold hover:text-primary transition text-sm px-3 py-2 hover:bg-blue-50 rounded-lg">Case Studies</Link>
+          <Link href="/brand" className="text-foreground font-bold hover:text-primary transition text-sm px-3 py-2 hover:bg-blue-50 rounded-lg">Brand</Link>
           <Link href="/news" className="text-foreground font-bold hover:text-primary transition text-sm px-3 py-2 hover:bg-blue-50 rounded-lg">News</Link>
           <Link href="/careers" className="text-foreground font-bold hover:text-primary transition text-sm px-3 py-2 hover:bg-blue-50 rounded-lg">Careers</Link>
           <Link href="/contact" className="text-foreground font-bold hover:text-primary transition text-sm px-3 py-2 hover:bg-blue-50 rounded-lg">Contact</Link>

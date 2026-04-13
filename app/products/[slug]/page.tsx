@@ -67,7 +67,7 @@ const productDetails: Record<string, any> = {
   },
 
   'earth-rods': {
-    title: 'Earth Rods & Earthing Systems',
+    title: 'Earth Rods & Earthing Materials',
     subtitle: 'Complete grounding solutions for electrical safety and protection',
     image: '/images/earthing-systems.jpg',
     description: 'Ensure safe and reliable grounding with our high-quality earthing solutions. Our range includes galvanized earth rods, pure copper rods, and complete earthing systems designed for industrial, commercial, and residential installations. These rods efficiently dissipate fault currents, protecting equipment and personnel from electrical hazards. Available with compatible accessories including earth clamps, inspection pits, and couplers for rod extension.',
@@ -268,6 +268,40 @@ const productDetails: Record<string, any> = {
       'Industrial facility grounds',
     ],
   },
+  'solar-materials': {
+  title: 'Solar Materials & Components',
+  subtitle: 'Complete solar power solutions for residential, commercial, and industrial applications',
+  image: '/images/sola.jpg',
+  description:
+    'Our solar materials and components provide complete solutions for solar power systems, including lithium batteries, inverters, solar panels, and essential accessories. Designed for efficiency, durability, and long-term performance, our products support reliable energy generation, storage, and distribution. Suitable for homes, businesses, and large-scale solar installations, we supply high-quality components that meet international standards and ensure optimal system performance.',
+  category: 'Renewable Energy Solutions',
+
+  features: [
+    'High-efficiency solar panels with long lifespan',
+    'Lithium batteries for reliable energy storage',
+    'Hybrid and pure sine wave inverters',
+    'Complete accessories: MC4 connectors, cables, mounting kits',
+    'Weather-resistant and durable components',
+    'Energy-saving and eco-friendly solutions',
+  ],
+
+  specs: [
+    'Solar Panels: Mono/Polycrystalline (300W – 700W)',
+    'Batteries: Lithium-ion, Deep Cycle (12V, 24V, 48V)',
+    'Inverters: 1kVA – 10kVA+ (Hybrid & Off-grid)',
+    'Charge Controllers: MPPT & PWM types',
+    'Mounting Structures: Roof & ground-mounted systems',
+  ],
+
+  applications: [
+    'Residential solar power systems',
+    'Commercial and office buildings',
+    'Industrial solar installations',
+    'Telecommunication sites',
+    'Rural electrification projects',
+    'Backup power and energy storage systems',
+  ],
+},
 };
 
 export default function ProductDetail() {

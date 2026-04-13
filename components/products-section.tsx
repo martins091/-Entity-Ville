@@ -8,83 +8,161 @@ const products = [
   {
     id: 1,
     name: 'Cable Trays & Ladders',
-    description: 'Premium cable management systems for organized and safe cable routing in industrial and commercial installations.',
-    features: ['Pre-Galvanized Steel', 'Hot-Dip Galvanized (HDG)', 'Complete Accessories', 'Heavy-Duty Load Capacity'],
+    description:
+      'High-performance cable management systems designed for safe, organized, and efficient routing in industrial and commercial environments.',
+    features: [
+      'Pre-Galvanized & HDG Finishes',
+      'Complete Accessories System',
+      'Heavy-Duty Load Capacity',
+      'Corrosion Resistant Design',
+    ],
     icon: Package,
     image: '/images/cable-tray.png',
     slug: 'cable-trays',
   },
+
   {
     id: 2,
     name: 'Cable Lugs',
-    description: 'High-quality copper and aluminum cable lugs for secure electrical terminations and reliable power transfer.',
-    features: ['High Conductivity', 'Corrosion Resistant', 'Copper & Aluminum Types', 'Multiple Sizes Available'],
+    description:
+      'Durable and high-conductivity cable lugs engineered for secure electrical terminations and efficient power transmission.',
+    features: [
+      'Copper & Aluminum Types',
+      'High Conductivity',
+      'Corrosion Resistant Finish',
+      'Wide Size Range',
+    ],
     icon: Cable,
     image: '/images/cablelugs.jpeg',
     slug: 'cable-lugs',
   },
+
   {
     id: 3,
     name: 'Circuit Breakers',
-    description: 'Reliable protection devices from ABB, Schneider, Siemens, and Chint for electrical safety and system protection.',
-    features: ['MCB / MCCB / RCB', '6A - 630A Ratings', '1P,2P,3P,4P Options', 'Trusted Global Brands'],
+    description:
+      'Advanced electrical protection devices designed to safeguard systems against overloads, short circuits, and faults.',
+    features: [
+      'MCB / MCCB / RCD Types',
+      '6A – 630A Ratings',
+      'Multi-Pole Configurations',
+      'High Breaking Capacity',
+    ],
     icon: Zap,
     image: '/images/breakers.jpg',
     slug: 'circuit-breakers',
   },
+
   {
     id: 4,
-    name: 'Earthing Systems',
-    description: 'Complete grounding solutions including earth rods, copper rods, and earthing mats for electrical safety.',
-    features: ['Galvanized Earth Rods', 'Pure Copper Rods', 'Earthing Mats', 'Complete Accessories'],
+    name: 'Earthing Materials',
+    description:
+      'Complete grounding materials including earth rods, clamps, and accessories for reliable electrical safety and protection.',
+    features: [
+      'Copper & Galvanized Rods',
+      'High Conductivity',
+      'Complete Accessories',
+      'Long Service Life',
+    ],
     icon: ShieldCheck,
     image: '/images/earthing-systems.jpg',
     slug: 'earth-rods',
   },
+
   {
     id: 5,
     name: 'Conduit Pipes & Fittings',
-    description: 'Complete wiring protection systems including rigid and flexible conduits for safe cable installation.',
-    features: ['Pre-Galvanized', 'Hot-Dip Galvanized (HDG)', 'Flexible Conduits', 'PVC-Coated Options'],
+    description:
+      'Robust conduit systems designed to protect electrical wiring from mechanical damage and environmental conditions.',
+    features: [
+      'Steel & PVC Options',
+      'Flexible & Rigid Types',
+      'Corrosion Resistant',
+      'Full Fittings Range',
+    ],
     icon: Package,
     image: '/images/conduit-pipe.jpg',
     slug: 'conduits',
   },
+
   {
     id: 6,
     name: 'Tinned Copper Busbars',
-    description: 'High-conductivity tinned copper busbars for efficient power distribution in electrical panels and switchgear.',
-    features: ['Tinned Copper', 'Corrosion Resistant', '20mm-100mm Width', '3mm-10mm Thickness'],
+    description:
+      'High-efficiency copper busbars with protective tin coating for reliable and low-loss power distribution.',
+    features: [
+      'High Conductivity Copper',
+      'Anti-Corrosion Coating',
+      'Custom Sizes Available',
+      'Low Power Loss',
+    ],
     icon: Zap,
     image: '/images/plated-copper-busbar.jpg',
     slug: 'busbars',
   },
+
   {
     id: 7,
     name: 'Lightning Arrestors',
-    description: 'Superior lightning and surge protection with Indelec thunder arrestors for industrial and commercial installations.',
-    features: ['Indelec Brand', 'IEC Compliant', 'Surge Protection', 'Easy Installation'],
+    description:
+      'Reliable surge and lightning protection systems designed to safeguard electrical installations and infrastructure.',
+    features: [
+      'High Surge Protection',
+      'IEC Compliant',
+      'Durable Construction',
+      'Easy Installation',
+    ],
     icon: ShieldCheck,
     image: '/images/surge-arresters.png',
     slug: 'lightning-arrestors',
   },
+
   {
     id: 8,
     name: 'Wiring Devices',
-    description: 'Premium switches, sockets, and LED lighting fixtures for residential, commercial, and industrial applications.',
-    features: ['Switches & Sockets', 'LED Lighting', 'Weatherproof Options', 'Industrial Grade'],
+    description:
+      'Modern switches, sockets, and lighting solutions built for safety, durability, and aesthetic installations.',
+    features: [
+      'Switches & Socket Outlets',
+      'LED Lighting Solutions',
+      'Weatherproof Options',
+      'Industrial Grade Designs',
+    ],
     icon: Lightbulb,
     image: '/images/wiring-device.png',
     slug: 'wiring-devices',
   },
+
   {
     id: 9,
     name: 'Inspection Chambers',
-    description: 'Durable underground access points for cable systems, drainage, and maintenance of electrical networks.',
-    features: ['Galvanized / HDPE / Concrete', '300mm-600mm Diameter', 'Easy Access', 'Corrosion Resistant'],
+    description:
+      'Durable underground access systems designed for easy inspection and maintenance of cable and drainage networks.',
+    features: [
+      'Concrete / HDPE / Steel Options',
+      'Multiple Size Variants',
+      'High Strength Build',
+      'Corrosion Resistant',
+    ],
     icon: Package,
     image: '/images/inspection.png',
     slug: 'inspection-chambers',
+  },
+
+  {
+    id: 10,
+    name: 'Solar Materials',
+    description:
+      'Complete solar energy components including panels, lithium batteries, inverters, and accessories for reliable power solutions.',
+    features: [
+      'Solar Panels (300W – 700W)',
+      'Lithium & Deep Cycle Batteries',
+      'Hybrid & Off-Grid Inverters',
+      'Full Installation Accessories',
+    ],
+    icon: Zap,
+    image: '/images/sola.jpg',
+    slug: 'solar-materials',
   },
 ];
 
